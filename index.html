@@ -20,6 +20,7 @@
     <!-- jQuery JavaScript -->
     <script type="text/javascript" src="assets/jquery-3.1.1.min.js"> </script>
     <script type="text/javascript" src="assets/main.js"> </script>
+    <script type="text/javascript" src="assets/smooth.js"> </script>
     <script type="text/javascript" src="assets/bootstrap.min.js"> </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
@@ -66,16 +67,16 @@
     </ul>
     <div class=" menu-big container">
         <div class="col-md-5 big-menu-items col-sm-5 col-xs-6">
-        <div id="main" class="col-md-4 col-sm-4 active col-xs-4"> <div class="border-active"></div> Главная</div>
-        <div id="catalog" class="col-md-4 col-sm-4 col-xs-4">Каталог</div>
-        <div id="effects" class="col-md-4 col-sm-4 col-xs-4" >Эффекты</div>
+        <div id="main" class="col-md-4 col-sm-4 active col-xs-4 big-menu-item"> <div class="border-active"></div> Главная</div>
+        <div id="catalog" class="col-md-4 col-sm-4 col-xs-4 big-menu-item">Каталог</div>
+        <div id="effects" class="col-md-4 col-sm-4 col-xs-4 big-menu-item" >Эффекты</div>
         </div>
 
         <div class="logo  col-md-2 col-sm-2 col-xs-0"></div>
         <div class="col-md-5 big-menu-items col-sm-5 col-xs-6   ">
-        <div id="gallery" class="col-md-4 col-sm-4 col-xs-4">Галерея</div>
-        <div id="poslugi" class="col-md-4 col-sm-4 col-xs-4">Услуги</div>
-        <div id="contacts" class="col-md-4 col-sm-4 col-xs-4">Контакты</div>
+        <div id="gallery" class="col-md-4 col-sm-4 col-xs-4 big-menu-item">Галерея</div>
+        <div id="poslugi" class="col-md-4 col-sm-4 col-xs-4 big-menu-item">Услуги</div>
+        <div id="contacts" class="col-md-4 col-sm-4 col-xs-4 big-menu-item">Контакты</div>
         </div>
     </div>
 
@@ -131,10 +132,10 @@ Lorem ipsum
     <div class="katalog" style="display: none">
         <h1>Каталог продукции</h1>
         <div class="container">
-            <div class="col-md-6 col-sm-6 col-xs-6 one-sample"><img class="a-sample" src="images_samples/block-3.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Декоративная линия</div><div class="button-sample catalog-button">Подробнее</div></div></div>
-            <div class="col-md-6 col-sm-6 col-xs-6 one-sample"><img class="a-sample" src="images_samples/block-4.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Декоративная линия</div><div class="button-sample catalog-button">Подробнее</div></div></div>
-            <div class="col-md-6 col-sm-6 col-xs-6 one-sample"><img class="a-sample" src="images_samples/block-5.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Декоративная линия</div><div class="button-sample catalog-button">Подробнее</div></div></div>
-            <div class="col-md-6 col-sm-6 col-xs-6 one-sample"><img class="a-sample" src="images_samples/block-9.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Декоративная линия</div><div class="button-sample catalog-button">Подробнее</div></div></div>
+            <div class="col-md-6 col-sm-6 col-xs-6 one-sample"><img class="a-sample" src="images_samples/block-3.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Декоративная линия</div><div class="button-sample catalog-button button--aylen">Подробнее</div></div></div>
+            <div class="col-md-6 col-sm-6 col-xs-6 one-sample"><img class="a-sample" src="images_samples/block-4.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Декоративная линия</div><div class="button-sample catalog-button button--aylen">Подробнее</div></div></div>
+            <div class="col-md-6 col-sm-6 col-xs-6 one-sample"><img class="a-sample" src="images_samples/block-5.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Декоративная линия</div><div class="button-sample catalog-button button--aylen">Подробнее</div></div></div>
+            <div class="col-md-6 col-sm-6 col-xs-6 one-sample"><img class="a-sample" src="images_samples/block-9.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Декоративная линия</div><div class="button-sample catalog-button button--aylen">Подробнее</div></div></div>
             <div class="col-md-12 col-sm-12 col-xs-12 one-sample"> <img class="a-sample" src="images_samples/block-6.jpg" style="height:13vh"></div>
         </div>
 
@@ -183,7 +184,7 @@ Lorem ipsum
         Реализовать тысячи оригинальных идей и изысканных интерьеров позволит широкая гамма цветов, оттенков и эффектов декоративных покрытий Oikos и Ferrara. Краски из декоративной линии – отличная альтернатива обоям. Различные пропорции, способы и техники нанесения краски дают возможность получить абсолютно индивидуальный рисунок, самые неожиданные результаты работы в любом помещении. Краски и штукатурки из декоративной линии помогают создать стильный интерьер и добиться действительно уникального дизайна для стен. Используя декоративные штукатурки и краски в отделке стен можно получить поверхность различной фактуры: гладкую как шелк или роскошную как бархат, с великолепным мерцающим и перламутровым эффектом, имитацию «под старину», мелкий песок или благородный мрамор.
     </div>
 </section>
-<section class="screen-2">
+<section class="screen-2 parallaxParent">
     <div class="text-on-section-2-wrap">
     <h2>О компании</h2>
         <div class="text-on-section-2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</div>
@@ -231,39 +232,14 @@ Lorem ipsum
     </div>
 </section>
 <section class="partners">
-    <div class="wrapper">
-        <div class="col-md-2 alo" >
-            <div class="col-md-2"></div>
-           <div class="col-md-8 partner1 logo-partner"></div>
-            <div class="col-md-2"></div>
-        </div>
-        <div class="col-md-2  alo ">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 partner2 logo-partner"></div>
-            <div class="col-md-2"></div>
-        </div>
-        <div class="col-md-2  alo ">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 partner3 logo-partner"></div>
-            <div class="col-md-2"></div>
-        </div>
-        <div class="col-md-2  alo ">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 partner4 logo-partner"></div>
-            <div class="col-md-2"></div>
-        </div>
-        <div class="col-md-2  alo ">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 partner5 logo-partner"></div>
-            <div class="col-md-2"></div>
-        </div>
-        <div class="col-md-2  alo ">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 partner6 logo-partner"></div>
-            <div class="col-md-2"></div>
-        </div>
-
-    </div>
+    <marquee direction="left" scrollamount="20" style="padding-top:2.5vh">
+        <img src="images_main_page/oikos.jpg"  style="height:15vh"/>
+        <img src="images_main_page/nova-color.png" style="height:15vh"/>
+        <img src="images_main_page/GIORGIOGRAESAN.png"  style="height:15vh"/>
+        <img src="images_main_page/logo_ferara.png.pagespeed.ce.png"  style="height:15vh"/>
+        <img src="images_main_page/Candis.png" style="height:15vh"/>
+        <img src="images_main_page/Layer-1.png" style="height:15vh"/>
+    </marquee>
 
 </section>
 <section class="screen-4">

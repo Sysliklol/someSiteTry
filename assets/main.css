@@ -582,6 +582,10 @@
     height: 80vh;
     background-size: 100% 140%;
     font-family: Andalus;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @media screen and (max-width: 950px) {
     .screen-2 {
@@ -606,6 +610,11 @@
     top: 8%;
     left: 12%;
     width: 30%;
+    padding: 30px;
+    background: rgba(165, 165, 165, 0.5);
+    color:white;
+    boreder-radius:10px;
+    height:50%;
 }
 .screen-2 .text-on-section-2-wrap .text-on-section-2 {
     font-size: 16px;
@@ -615,12 +624,16 @@
     -webkit-transition: all 1s ease-in-out;
     font-family: Andalus;
     position: relative;
-    background-image: url('../images_main_page/DSC_2173.jpg');
+    background-image: url('../images_main_page/fone-3.jpg');
     width: 100%;
     max-height: 900px;
     text-align: left;
     height: 85vh;
-    background-size: 100% 120%;
+    background-size: 100% 300%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .screen-3 a {
     display: inline-block;
@@ -661,9 +674,7 @@
 .screen-3 .about-partners .partners-photo-2 {
     background-image: url(../images_main_page/oikos.jpg);
 }
-.screen-3 .about-partners .partners-photo-3 {
-    background-image: url(../images_main_page/Candis.png);
-}
+
 .screen-3 .about-partners .partners-photo-4 {
     background-image: url(../images_main_page/nova-color.png);
 }
@@ -675,17 +686,24 @@
 }
 .partners {
     z-index: 5;
-    background-color: #b4b4b4;
+    background-color: #ffffff;
     height: 20vh;
     width: 100%;
 }
 @media screen and (max-width: 991px) {
-    .partners {
+   /* .partners {
         display: none;
-    }
+    }*/
 }
 .partners .wrapper {
-    height: 100%;
+    height: 70%;
+    margin-top:15%;
+    padding-left:90%;
+    overflow:hidden;
+}
+.partners{
+
+    overflow:hidden;
 }
 .partners .alo {
     height: 100%;
@@ -892,6 +910,10 @@
     font-family: Andalus;
     color: white;
     font-size: 20px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .catalog-podmenu h1 {
     margin-top: 0;

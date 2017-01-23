@@ -159,3 +159,4 @@ $(function(){
         $(this).find('.text-sample').hide();
     })
 });
+

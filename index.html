@@ -10,6 +10,7 @@
     <!-- LESS основний файл -->
     <link rel="stylesheet" type="text/css" href="assets/main.css" />
     <link rel="stylesheet" type="text/css" href="assets/scroll.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slider.css" />
     <link rel="stylesheet/less" type="text/css" href="assets/bootstrap.css" />
 
     <link rel="stylesheet/less" type="text/css" href="assets/bootstrap-theme.css" />
@@ -67,16 +68,16 @@
     </ul>
     <div class=" menu-big container">
         <div class="col-md-5 big-menu-items col-sm-5 col-xs-6">
-        <div id="main" class="col-md-4 col-sm-4 active col-xs-4 big-menu-item"> <div class="border-active"></div> Главная</div>
-        <div id="catalog" class="col-md-4 col-sm-4 col-xs-4 big-menu-item">Каталог</div>
-        <div id="effects" class="col-md-4 col-sm-4 col-xs-4 big-menu-item" >Эффекты</div>
+        <div id="main" class="col-md-4 col-sm-4 active col-xs-4 big-menu-item"> <div class="border-active"></div> <a href="index.html">Главная</a><div class="border-active-right"></div></div>
+        <div id="catalog" class="col-md-4 col-sm-4 col-xs-4 big-menu-item"><a href="Catalog.html">Каталог</a></div>
+        <div id="effects" class="col-md-4 col-sm-4 col-xs-4 big-menu-item" ><a href="Effects.html.html">Эффекты</a></div>
         </div>
 
         <div class="logo  col-md-2 col-sm-2 col-xs-0"></div>
         <div class="col-md-5 big-menu-items col-sm-5 col-xs-6   ">
-        <div id="gallery" class="col-md-4 col-sm-4 col-xs-4 big-menu-item">Галерея</div>
-        <div id="poslugi" class="col-md-4 col-sm-4 col-xs-4 big-menu-item">Услуги</div>
-        <div id="contacts" class="col-md-4 col-sm-4 col-xs-4 big-menu-item">Контакты</div>
+        <div id="gallery" class="col-md-4 col-sm-4 col-xs-4 big-menu-item"><a href="Gallery.html">Галерея</a></div>
+        <div id="poslugi" class="col-md-4 col-sm-4 col-xs-4 big-menu-item"><a href="Poslugi.html">Услуги</a></div>
+        <div id="contacts" class="col-md-4 col-sm-4 col-xs-4 big-menu-item"><a href="Contacts.html">Контакты</a></div>
         </div>
     </div>
 
@@ -87,48 +88,8 @@ Lorem ipsum
         <div class="text-on-main-text"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
 
     </div>
-    <div class="contacts contact-us" style="width:80%; display:none">
-        <div class="container">
-            <div class="col-md-5">
-                <img src="images_main_page/contacts.png">
-            </div>
-            <div class="col-md-7">
-               <div class="col-md-1 name-contact-us"> Имя:         </div>
-                <div class="col-md-5">  <input type="text" class="input-contacts"></div>
-                <div class="col-md-1">Телефон: </div>
-                <div class="col-md-5"><input type="text" class="input-contacts"></div>
-                <div class="col-md-1 message-text">Сообщение:</div>
-                <div class="col-md-11"> <textarea rows="4" cols="50" class="input-message">
 
-                </textarea></div>
-                <div class="col-md-1"></div>
-                <div class="col-md-5"><button type="button" class="send"> Отправить </button></div>
-                <div class="col-md-6"><button type="button" class="clear"> Очитстить</button> </div>
-            </div>
-        </div>
-    </div>
-    <div class="our-poslugi" style="display:none">
-        <h1>
-            Наши услуги
-        </h1>
 
-            <div class="col-md-6" style="padding-left:0">
-                <img src="images_main_page/DSC_2199.jpg" class="image">
-            </div>
-            <div class="col-md-6 tips " style="padding-left:10%" ><div class="col-md-1 col-sm-1"><i class="fa fa-check" aria-hidden="true"></i> </div>
-                <div class="col-md-11 col-sm-11">Квалифицированые консультации </div>
-                <div class="col-md-1 col-sm-1"><i class="fa fa-check" aria-hidden="true"></i> </div>
-                <div class="col-md-11 col-sm-11">Декоративная отделка </div>
-                <div class="col-md-1 col-sm-1"><i class="fa fa-check" aria-hidden="true"></i> </div>
-                <div class="col-md-11 col-sm-11">Монтаж лепнины </div>
-                <div class="col-md-1 col-sm-1"><i class="fa fa-check" aria-hidden="true"></i></div>
-                <div class="col-md-11 col-sm-11"> Патинование, золочение </div>
-                <div class="col-md-1 col-sm-1"><i class="fa fa-check" aria-hidden="true"></i> </div>
-                <div class="col-md-11 col-sm-11">Художественная роспись стен, аэрография </div>
-                <div class="col-md-1 col-sm-1"><i class="fa fa-check" aria-hidden="true"></i> </div>
-                <div class="col-md-11 col-sm-11">Дизайн интерьера </div></div>
-
-    </div>
     <div class="katalog" style="display: none">
         <h1>Каталог продукции</h1>
         <div class="container">
@@ -149,41 +110,8 @@ Lorem ipsum
         Каталог продукции >
     </h1>
 </section>
-<section class="screen-poslugi" id="screen-2"style="display:none">
-   <div class="container much-text">
-       <div class="col-md-3 col-sm-3 col-xs-3">
-           <div class="col-md-4 col-sm-4 col-xs-4"><img src="images_samples/consult.png" class="poslugi-image"> </div>
-           <div class="col-md-8 col-sm-8 col-xs-8 text-with-image-poslugi">Бесплатная консультация квалифицированных специалистов</div>
-       </div>
-       <div class="col-md-3 col-sm-3 col-xs-3">
-           <div class="col-md-4 col-sm-4 col-xs-4"><img src="images_poslugi/delivery.png" class="poslugi-image car-image" style="width:110px;height:70px;"></div>
-           <div class="col-md-8 col-sm-8 col-xs-8 text-with-image-poslugi" style="padding-left:70px;">Быстрая доставка
-               по территории Украины
-               любым перевозчиком</div>
-       </div>
-       <div class="col-md-3 col-sm-3 col-xs-3">
-           <div class="col-md-4 col-sm-4 col-xs-4"><img src="images_poslugi/garantee.png" class="poslugi-image" style="height:90px;padding-bottom:20px;"></div>
-           <div class="col-md-8 col-sm-8 col-xs-8 text-with-image-poslugi"> Гарантия качества товаров, обеспечена Европейскими сертификатами</div>
-       </div>
-       <div class="col-md-3 col-sm-3 col-xs-3">
-           <div class="col-md-4 col-sm-4 col-xs-4"><img src="images_samples/present.png" class="poslugi-image"></div>
-           <div class="col-md-8 col-sm-8 col-xs-8 text-with-image-poslugi">Бесплатный выезд специалиста на объект, звамеры и составление сметы</div>
-       </div>
-       <div class="col-md-12 text-poslugi">
-           Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsum Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
-           Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
-           Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
-       </div>
 
-   </div>
 
-</section>
-<section class="catalog-podmenu" style="display:none">
-
-    <div class="catalog-podmenu-description">
-        Реализовать тысячи оригинальных идей и изысканных интерьеров позволит широкая гамма цветов, оттенков и эффектов декоративных покрытий Oikos и Ferrara. Краски из декоративной линии – отличная альтернатива обоям. Различные пропорции, способы и техники нанесения краски дают возможность получить абсолютно индивидуальный рисунок, самые неожиданные результаты работы в любом помещении. Краски и штукатурки из декоративной линии помогают создать стильный интерьер и добиться действительно уникального дизайна для стен. Используя декоративные штукатурки и краски в отделке стен можно получить поверхность различной фактуры: гладкую как шелк или роскошную как бархат, с великолепным мерцающим и перламутровым эффектом, имитацию «под старину», мелкий песок или благородный мрамор.
-    </div>
-</section>
 <section class="screen-2 parallaxParent">
     <div class="text-on-section-2-wrap">
     <h2>О компании</h2>
@@ -194,7 +122,85 @@ Lorem ipsum
 <section class="screen-3">
     <div class="about-partners">
         <div class="wrapper">
-            <div class="col-md-9 col-xs-6 col-sm-8 partners-photo-1"></div>
+            <div class="col-md-9 col-xs-6 col-sm-8 slider-descr" >
+                <ul class="slides">
+                    <input type="radio" name="radio-btn" id="img-1" checked />
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="images_main_page/fon-2.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-6" class="prev">&#x2039;</label>
+                            <label for="img-2" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-2" />
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="images_main_page/DSC_2178.jpg"/>
+                        </div>
+                        <div class="nav">
+                            <label for="img-1" class="prev">&#x2039;</label>
+                            <label for="img-3" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-3" />
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="images_main_page/DSC_2159.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-2" class="prev">&#x2039;</label>
+                            <label for="img-4" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-4" />
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="images_main_page/DSC_2191.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-3" class="prev">&#x2039;</label>
+                            <label for="img-5" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-5" />
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="images_main_page/DSC_2199.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-4" class="prev">&#x2039;</label>
+                            <label for="img-6" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-6" />
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="images_main_page/DSC_2149.jpg" />
+                        </div>
+                        <div class="nav">
+                            <label for="img-5" class="prev">&#x2039;</label>
+                            <label for="img-1" class="next">&#x203a;</label>
+                        </div>
+                    </li>
+
+                    <li class="nav-dots">
+                        <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                        <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                        <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                        <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                        <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                        <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                    </li>
+                </ul>
+
+            </div>
             <div class="col-md-3 col-xs-6 col-sm-4 partners-text-wrap">
                 <h1>
                   Oikos
@@ -213,24 +219,8 @@ Lorem ipsum
     </div>
 
 </section>
-<section class="effects-main"style="display: none">
 
 
-</section>
-<section class="effects-samples" style="display: none">
-  <h1>Образцы</h1>
-    <div class="container">
-        <div class="col-md-4 col-sm-4 col-xs-4  one-sample" id="smaple-1"><img class="a-sample" src="images_samples/block-1.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample">Подробнее</div></div></div>
-        <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-9"><img class="a-sample" src="images_samples/block-2.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample">Подробнее</div></div></div>
-        <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-8"><img class="a-sample" src="images_samples/block-3.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample">Подробнее</div></div></div>
-        <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-7"><img class="a-sample" src="images_samples/block-4.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample">Подробнее</div></div></div>
-        <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-6"><img class="a-sample" src="images_samples/block-5.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample">Подробнее</div></div></div>
-        <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-5"><img class="a-sample" src="images_samples/block-6.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample">Подробнее</div></div></div>
-        <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-4"><img class="a-sample" src="images_samples/block-7.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample">Подробнее</div></div></div>
-        <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-3"><img class="a-sample" src="images_samples/block-8.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample">Подробнее</div></div></div>
-        <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-2"><img class="a-sample" src="images_samples/block-9.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample">Подробнее</div></div></div>
-    </div>
-</section>
 <section class="partners">
     <marquee direction="left" scrollamount="20" style="padding-top:2.5vh">
         <img src="images_main_page/oikos.jpg"  style="height:15vh"/>

@@ -225,6 +225,13 @@
     background-color: transparent;
     border: 1px solid #ffffff;
 }
+.main-screen a{
+    color:white;
+
+}
+.main-screen a:hover{
+    color:rgba(152, 152, 152, 0.8);
+}
 @media screen and (max-width: 991px) {
     .main-screen .mouse-icon .wheel {
         display: none;
@@ -334,6 +341,7 @@
     color: white;
     margin: auto;
     width: 100%;
+
 }
 .main-screen .our-poslugi .tips {
     font-size: 22px;
@@ -401,6 +409,9 @@
 .main-screen .message-text {
     margin-top: 70px;
 }
+.main-screen .image{
+    padding-top:5%;
+}
 .main-screen .input-message {
     width: 88%;
     margin-top: 40px;
@@ -435,36 +446,36 @@
     position: relative;
     cursor: pointer;
     font-size: 25px;
-    text-align: right;
+    text-align: center;
 }
 .main-screen .menu-big #main {
     position: relative;
     cursor: pointer;
-    text-align: left;
+    text-align: center;
     font-size: 25px;
     display: inline-block;
 }
 .main-screen .menu-big #catalog {
     position: relative;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
     font-size: 25px;
 }
 .main-screen .menu-big #contacts {
     position: relative;
-    text-align: right;
+    text-align: center;
     cursor: pointer;
     font-size: 25px;
 }
 .main-screen .menu-big #effects {
     position: relative;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
     font-size: 25px;
 }
 .main-screen .menu-big #poslugi {
     position: relative;
-    text-align: right;
+    text-align: center;
     cursor: pointer;
     font-size: 25px;
 }
@@ -491,7 +502,10 @@
     color: white;
 }
 .main-screen .menu-big .big-menu-items .active {
-    color: #a80001;
+    color: #a80001 !important;
+}
+.main-screen .menu-big .big-menu-items .active a {
+    color: #a80001 !important;
 }
 .main-screen .text-on-main-wrap,
 .main-screen .contact-us {
@@ -499,8 +513,9 @@
     text-align: center;
     color: white;
     margin: auto;
-    width: 40%;
+
     top: 30%;
+    width:80%;
 }
 .main-screen .contact-us {
     transition: all 1s ease-out;
@@ -555,8 +570,15 @@
     padding: 0;
     margin-left: 40px;
     margin-right: 40px;
-    padding-top: 10%;
+    padding-top: 20%;
 }
+.photo-poslugi{
+    padding-top:5%;
+}
+.tips{
+    padding-top:5%;
+}
+
 .screen-poslugi .text-poslugi {
     text-align: center;
     padding-top: 80px;
@@ -635,6 +657,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media screen and(max-width:1024px){
+    .screen-3{
+        background-attachment: scroll;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
 .screen-3 a {
     display: inline-block;
     color: #a80001;
@@ -651,7 +681,7 @@
     margin: auto;
     height: 60%;
     background: #f8f8f8;
-    opacity: 0.8;
+    opacity: 1;
 }
 .screen-3 .about-partners .wrapper {
     position: relative;

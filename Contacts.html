@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/scroll.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slider.css" />
+    <link rel="stylesheet/less" type="text/css" href="assets/bootstrap.css" />
+
+    <link rel="stylesheet/less" type="text/css" href="assets/bootstrap-theme.css" />
+    <link rel="stylesheet/less" type="text/css" href="assets/bootstrap-theme.min.css" />
+    <!-- LESS JavaScript компілятор -->
+
+
+    <!-- jQuery JavaScript -->
+    <script type="text/javascript" src="assets/jquery-3.1.1.min.js"> </script>
+    <script type="text/javascript" src="assets/main.js"> </script>
+    <script type="text/javascript" src="assets/smooth.js"> </script>
+    <script type="text/javascript" src="assets/bootstrap.min.js"> </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+<section class="main-screen">
+
+
+
+    <ul class="cb-slideshow">
+        <li><span>Image 01</span><div></div></li>
+        <li><span>Image 02</span><div></div></li>
+        <li><span>Image 03</span><div></div></li>
+        <li><span>Image 04</span><div></div></li>
+        <li><span>Image 05</span><div></div></li>
+        <li><span>Image 06</span><div></div></li>
+    </ul>
+    <div class=" menu-big container">
+        <div class="col-md-5 big-menu-items col-sm-5 col-xs-6">
+            <div id="main" class="col-md-4 col-sm-4  col-xs-4 big-menu-item">  <a href="index.html">Главная</a></div>
+            <div id="catalog" class="col-md-4 col-sm-4 col-xs-4 big-menu-item"><a href="Catalog.html">Каталог</a></div>
+            <div id="effects" class="col-md-4 col-sm-4 col-xs-4 big-menu-item" ><a href="Effects.html">Эффекты</a></div>
+        </div>
+
+        <div class="logo  col-md-2 col-sm-2 col-xs-0"></div>
+        <div class="col-md-5 big-menu-items col-sm-5 col-xs-6   ">
+            <div id="gallery" class="col-md-4 col-sm-4 col-xs-4 big-menu-item"><a href="Gallery.html">Галерея</a></div>
+            <div id="poslugi" class="col-md-4 col-sm-4 col-xs-4 big-menu-item"><a href="Poslugi.html">Услуги</a></div>
+            <div id="contacts" class="col-md-4 col-sm-4 col-xs-4 big-menu-item active"><div class="border-active"></div><div class="border-active-right"></div><a href="Contacts.html">Контакты</a></div>
+        </div>
+    </div>
+
+
+    <div class="contacts contact-us" style="width:80%;">
+        <div class="container">
+            <div class="col-md-5">
+                <img src="images_main_page/contacts.png">
+            </div>
+            <div class="col-md-7">
+                <div class="col-md-1 name-contact-us"> Имя:         </div>
+                <div class="col-md-5">  <input type="text" class="input-contacts"></div>
+                <div class="col-md-1">Телефон: </div>
+                <div class="col-md-5"><input type="text" class="input-contacts"></div>
+                <div class="col-md-1 message-text">Сообщение:</div>
+                <div class="col-md-11"> <textarea rows="4" cols="50" class="input-message">
+
+                </textarea></div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5"><button type="button" class="send"> Отправить </button></div>
+                <div class="col-md-6"><button type="button" class="clear"> Очитстить</button> </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</section>
+<section class="partners" style="background: #b4b4b4">
+    <marquee direction="left" scrollamount="20" style="padding-top:2.5vh">
+        <img src="images_main_page/oikos.jpg"  style="height:15vh"/>
+        <img src="images_main_page/nova-color.png" style="height:15vh"/>
+        <img src="images_main_page/GIORGIOGRAESAN.png"  style="height:15vh"/>
+        <img src="images_main_page/logo_ferara.png.pagespeed.ce.png"  style="height:15vh"/>
+        <img src="images_main_page/Candis.png" style="height:15vh"/>
+        <img src="images_main_page/Layer-1.png" style="height:15vh"/>
+    </marquee>
+
+</section>
+<section class="screen-4">
+    <div class="googleMaps" id="googleMap"  > </div>
+    <div class="badge">
+
+
+        <img src="images_main_page/contacts.png">
+        <!--  <div class="glyphicon glyphicon-earphone icons" >
+
+
+
+         </div >
+         <div class="text-badge">
+             +380 (68) 876 77 72
+         </div >
+         <div class="text-badge">
+             +380 (63) 190 77 72
+         </div>
+         <div class="text-badge">
+             +380 (44) 456 29 73
+         </div>
+          <div class="glyphicon glyphicon-envelope icons">
+
+          </div>
+    <div class="text-badge"> info@archidea.kiev.ua
+
+    </div>
+         <div class="glyphicon glyphicon-map-marker" style="margin-top:20px;">
+
+         </div>
+         <div class="text-badge"> Украина, г. Киев</div>
+         <div > ул. Молдавская, 2</div>
+          -->
+    </div>
+    <script>
+        function initMap() {
+            var uluru = {lat: -25.363, lng: 131.044};
+            var map = new google.maps.Map(document.getElementById('googleMap'), {
+                center:	new	google.maps.LatLng(50.459501, 30.450885),
+                zoom:	15
+            });
+            var marker = new google.maps.Marker({
+                position: 	new	google.maps.LatLng(50.459501, 30.450885),
+                map: map
+            });
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1UpoL_kLMIWeXxzUCnQezVzpqCAVnIGo&callback=initMap">
+    </script>
+</section>
+
+<section class="footer2">
+    <div class="container">
+        <div class="col-md-3 col-sm-0 social">
+            <i class="fa fa-facebook-square icons-footer" aria-hidden="true"></i>
+            <i class="fa fa-vk icons-footer" aria-hidden="true"></i>
+        </div>
+        <div class="col-md-3 col-sm-0 e-mails">
+            <i class="fa fa-envelope icons-footer icons-footer" aria-hidden="true"></i>
+            info@archidea.kiev.ua
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-5 phones">
+
+            <div class="phone phone1">+380 (68) 876 77 72</div>
+            <div>  <i class="fa fa-phone-square phone-icon" aria-hidden="true"></i>+380 (63) 190 77 72</div>
+            <div class="phone phone2">+380 (44) 456 29 73</div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-5 adress">
+
+            <div class="phone phone1 marker">  Украина, г.Киев</div>
+            <div class="phone"> <i class="fa fa-map-marker phone-icon" aria-hidden="true"></i>ул. Молдавская,2</div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

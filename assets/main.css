@@ -8,6 +8,7 @@
     overflow-y: scroll;
     overflow-x: hidden !important;
     transition: all 1s ease-out;
+    background: #b4b4b4;
 }
 .loading {
     position: fixed;
@@ -557,10 +558,7 @@
     color: white;
     font-size: 18px;
 }
-@font-face {
-    font-family: pfdintextpro-light;
-    src: url(../Backend/views/Fonts/pfdintextpro-light.tff);
-}
+
 .screen-poslugi .text-with-image-poslugi {
     padding-left: 30px;
 }

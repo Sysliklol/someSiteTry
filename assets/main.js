@@ -9,7 +9,7 @@ function hideBlock() {
     if($('body').scrollTop() >= 200) {
         block.css('position','fixed');
         block.css('top','0');
-        block.css('background','#696969');
+        block.css('background','url(../images_main_page/texture-dark-grey.png)');
         block.css('height',$(window).height()*0.15);
         block.css('opacity','0.96');
         $('.header-catalog').css('top','50%')
@@ -115,7 +115,7 @@ $(function(){
      $('.screen-poslugi').hide();
      $('.effects-main').hide();
      $('.effects-samples').hide();
-     
+
 
  }
  function animate(){

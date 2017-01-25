@@ -43,7 +43,11 @@ $(function(){
     })
 
 
-
+    $('.button-sample').click(function(){
+        $('.effects-samples').toggleClass('moveLeft');
+        $('.podmenu-header').text('ОбРАЗЦЫ > ' + $(this).siblings('.text-sample-text').text())
+        $('.partners-109-hrn').show();
+    })
 
     $('.catalog-button').click(function(){
         hide_all();
@@ -58,6 +62,7 @@ $(function(){
 
 
     })
+
  function hide_all(){
      $('body').scrollTop(0);
      animate();
@@ -104,4 +109,5 @@ $(function(){
         $(this).find('.text-sample').hide();
     })
 });
+
 

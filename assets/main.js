@@ -1,7 +1,8 @@
 var n =1;
-$(document).ready(function() {
-    $("body").css("opacity", "1");
+$(window).on("load", function() {
+    setTimeout( $('.loading').hide(),2000);
 });
+
 function hideBlock() {
     var block = $('.menu-big');
     var menu = $('.menu-small');
@@ -43,32 +44,7 @@ $(function(){
 
 
 
-    $('#contacts').click(function(){
-        openPage('Contacts.html');
-        $('.loading').show();
-        animate();
 
-    });
-    $('#main').click(function(){
-        $('.loading').show();
-        animate();
-
-    });
-    $('#poslugi').click(function(){
-        $('.loading').show();
-        animate();
-
-    })
-    $('#effects').click(function(){
-        $('.loading').show();
-        animate();
-
-    })
-    $('#catalog').click(function(){
-        $('.loading').show();
-        animate();
-
-    })
     $('.catalog-button').click(function(){
         hide_all();
         $('.catalog-podmenu').show();
@@ -79,7 +55,7 @@ $(function(){
     })
     $('#gallery').click(function(){
         $('.loading').show();
-        animate();
+
 
     })
  function hide_all(){
@@ -114,12 +90,12 @@ $(function(){
  }
  function animate(){
        $('.loading').show();
-     /*function fade(){
+     function fade(){
          $('.loading').hide();
      }
-     setTimeout(fade,5000);
+     setTimeout(fade,2000);
      fade();
-*/
+
  }
  $('.one-sample').mouseover(function(){
      $(this).find('.text-sample').show();
@@ -129,33 +105,3 @@ $(function(){
     })
 });
 
-function loadHTML(sURL)
-
-{
-    var request=null;
-    // пытаемся создать объект для MSXML 2 и старше
-    if(!request) try {
-        request=new ActiveXObject('Msxml2.XMLHTTP');
-    } catch (e){}
-    // не вышло... попробуем для MSXML 1
-    if(!request) try {
-        request=new ActiveXObject('Microsoft.XMLHTTP');
-    } catch (e){}
-    // не вышло... попробуем для Mozilla
-    if(!request) try {
-        request=new XMLHttpRequest();
-    } catch (e){}
-    if(!request)
-    // ничего не получилось...
-        return "";
-    // делаем запрос
-    request.open('GET', sURL, false);
-    request.send(null);
-    // возвращаем текст
-    return request.responseText;
-}
-
-function openPage (sURL) {
-    mypagecontent = document.getElementById('pagecontent')
-    mypagecontent.innerHTML = loadHTML(sURL);
-}

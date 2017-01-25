@@ -65,32 +65,32 @@ $(function(){
     })
     $('#catalog').click(function(){
         $('.loading').show();
-        $('.loading').hide();
+
 
 
     })
     $('#contacts').click(function(){
         $('.loading').show();
-        $('.loading').hide();
+
 
 
     })
     $('#effects').click(function(){
         $('.loading').show();
-        $('.loading').hide();
+
 
 
     })
 
     $('#main').click(function(){
         $('.loading').show();
-        $('.loading').hide();
+
 
 
     })
     $('#poslugi').click(function(){
         $('.loading').show();
-        $('.loading').hide();
+
 
 
     })
@@ -115,14 +115,7 @@ $(function(){
      $('.screen-poslugi').hide();
      $('.effects-main').hide();
      $('.effects-samples').hide();
-     $('#main').removeClass("active");
-     $('#contacts').removeClass("active");
-     $('#effects').removeClass("active");
-     $('#poslugi').removeClass("active");
-     $('#catalog').removeClass("active");
-     $('#gallery').removeClass("active");
-     $('.menu-big').find('.border-active').remove();
-     $('.menu-big').find('.border-active-right').remove();
+     
 
  }
  function animate(){

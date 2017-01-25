@@ -1,13 +1,12 @@
 var n =1;
 $(window).on("load", function() {
-    setTimeout( $('.loading').hide(),2000);
+    setTimeout( function() {$('.loading').hide()},2000);
 });
 
 function hideBlock() {
     var block = $('.menu-big');
     var menu = $('.menu-small');
     if($('body').scrollTop() >= 200) {
-       // block.css('visibility','hidden');
         block.css('position','fixed');
         block.css('top','0');
         block.css('background','#696969');
@@ -37,7 +36,8 @@ $(function(){
     $('.mouse-icon').click(function(){
         console.log(upper);
         $("html, body").delay(0).animate({
-            scrollTop: $('.screen-2').offset().top-upper
+            scrollTop: $(window).height()-upper
+
         }, 1000);
 
     })
@@ -59,38 +59,38 @@ $(function(){
     })
     $('#gallery').click(function(){
         $('.loading').show();
-        animate();
+        $('.loading').hide();
 
 
     })
     $('#catalog').click(function(){
         $('.loading').show();
-        animate();
+        $('.loading').hide();
 
 
     })
     $('#contacts').click(function(){
         $('.loading').show();
-        animate();
+        $('.loading').hide();
 
 
     })
     $('#effects').click(function(){
         $('.loading').show();
-        animate();
+        $('.loading').hide();
 
 
     })
 
     $('#main').click(function(){
         $('.loading').show();
-        animate();
+        $('.loading').hide();
 
 
     })
     $('#poslugi').click(function(){
         $('.loading').show();
-        animate();
+        $('.loading').hide();
 
 
     })

@@ -11,6 +11,12 @@
     background: #b4b4b4;
     opacity:0;
     transition:1.5s;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+
 }
 .loading {
     position: fixed;

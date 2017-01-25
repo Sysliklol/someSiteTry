@@ -59,6 +59,38 @@ $(function(){
     })
     $('#gallery').click(function(){
         $('.loading').show();
+        animate();
+
+
+    })
+    $('#catalog').click(function(){
+        $('.loading').show();
+        animate();
+
+
+    })
+    $('#contacts').click(function(){
+        $('.loading').show();
+        animate();
+
+
+    })
+    $('#effects').click(function(){
+        $('.loading').show();
+        animate();
+
+
+    })
+
+    $('#main').click(function(){
+        $('.loading').show();
+        animate();
+
+
+    })
+    $('#poslugi').click(function(){
+        $('.loading').show();
+        animate();
 
 
     })
@@ -98,7 +130,7 @@ $(function(){
      function fade(){
          $('.loading').hide();
      }
-     setTimeout(fade,2000);
+     setTimeout(fade,5000);
      fade();
 
  }

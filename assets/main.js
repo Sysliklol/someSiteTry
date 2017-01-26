@@ -63,24 +63,24 @@ $(function(){
     $('#gallery').click(function(){
         $('.loading').show();
         $('.loading').hide();
-        window.location.href='gallery.html';
+        window.location.href='Gallery.html';
 
     })
     $('#catalog').click(function(){
         $('.loading').show();
 
-        window.location.href='catalog.html';
+        window.location.href='Catalog.html';
 
     })
     $('#contacts').click(function(){
         $('.loading').show();
 
-        window.location.href='contacts.html';
+        window.location.href='Contacts.html';
 
     })
     $('#effects').click(function(){
         $('.loading').show();
-        window.location.href='effects.html';
+        window.location.href='Effects.html';
 
 
     })
@@ -93,7 +93,7 @@ $(function(){
     })
     $('#poslugi').click(function(){
         $('.loading').show();
-        window.location.href='poslugi.html';
+        window.location.href='Poslugi.html';
 
 
     })

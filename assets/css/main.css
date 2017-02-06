@@ -828,7 +828,7 @@ html{
     position: relative;
     background-image: url('../../images_main_page/DSC_2024.jpg');
     overflow-x:hidden;
-    height: 100vh;
+    height: 150vh;
     width:200%;
     background-size: 100% 100%;
     color: white;
@@ -876,8 +876,8 @@ html{
 }
 .effects-samples .one-sample {
     padding: 0;
-    height:27vh;
-    width:27vh;
+    height:36vh;
+    width:36vh;
     position: relative;
     -webkit-transition: all 2s linear;
     -moz-transition: all 2s linear;

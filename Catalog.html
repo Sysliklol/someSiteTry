@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Каталог</title>
     <script src="https://use.fontawesome.com/4aebcd2e5a.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
 
     <!-- LESS основний файл -->
 
-    <link rel="stylesheet" type="text/css" href="assets/scroll.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/scroll.css" />
 
     <link rel="stylesheet/less" type="text/css" href="assets/bootstrap.css" />
 
@@ -19,8 +19,10 @@
 
     <!-- jQuery JavaScript -->
     <script type="text/javascript" src="assets/jquery-3.1.1.min.js"> </script>
-    <script type="text/javascript" src="assets/main.js"> </script>
-    <script type="text/javascript" src="assets/smooth.js"> </script>
+    <script type="text/javascript" src="assets/js/main.js"> </script>
+    <script type="text/javascript" src="Lists/Catalog-list.js"> </script>
+    <script type="text/javascript" src="assets/js/smooth.js"> </script>
+    <script type="text/javascript" src="assets/isotope.pkdg.min.js"> </script>
     <script type="text/javascript" src="assets/bootstrap.min.js"> </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -71,12 +73,13 @@
 
     <div class="katalog" >
         <h1>Каталог продукции</h1>
-        <div class="container">
-            <div class="col-md-6 col-sm-6 col-xs-6 one-sample"><img class="a-sample" src="images_samples/block-3.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Декоративная линия</div><div class="button-sample catalog-button button--aylen">Подробнее</div></div></div>
-            <div class="col-md-6 col-sm-6 col-xs-6 one-sample"><img class="a-sample" src="images_samples/block-4.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Декоративная линия</div><div class="button-sample catalog-button button--aylen">Подробнее</div></div></div>
-            <div class="col-md-6 col-sm-6 col-xs-6 one-sample"><img class="a-sample" src="images_samples/block-5.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Декоративная линия</div><div class="button-sample catalog-button button--aylen">Подробнее</div></div></div>
-            <div class="col-md-6 col-sm-6 col-xs-6 one-sample"><img class="a-sample" src="images_samples/block-9.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Декоративная линия</div><div class="button-sample catalog-button button--aylen">Подробнее</div></div></div>
-            <div class="col-md-12 col-sm-12 col-xs-12 one-sample"> <img class="a-sample" src="images_samples/block-6.jpg" style="height:13vh"></div>
+        <div class="wrapper">
+        <div class="catalog-sample"><img class="a-sample" src="images_samples/block-1.jpg"> <div class="text-sample" ><div class="text-sample-text">Декоративная линия</div><div class="button-sample button-catalog button--aylen" id="deco_line">Подробнее</div></div></div>
+            <div class="catalog-sample"><img class="a-sample" src="images_samples/block-1.jpg"><div class="text-sample" ><div class="text-sample-text">Фоновые краски</div><div class="button-sample button-catalog button--aylen" id="fone_paint">Подробнее</div></div> </div>
+            <div class="catalog-sample"><img class="a-sample" src="images_samples/block-1.jpg"><div class="text-sample" ><div class="text-sample-text">Грунты, лаки, пропитки</div><div class="button-sample button-catalog button--aylen" id="grunt">Подробнее</div></div> </div>
+            <div class="catalog-sample"><img class="a-sample" src="images_samples/block-1.jpg"><div class="text-sample" ><div class="text-sample-text">Лепной декор</div><div class="button-sample button-catalog button--aylen" id="decor">Подробнее</div></div> </div>
+            <div class="catalog-sample"><img class="a-sample" src="images_samples/block-1.jpg"><div class="text-sample" ><div class="text-sample-text">Фасадная линия</div><div class="button-sample button-catalog button--aylen" id="front">Подробнее</div></div> </div>
+            <div class="catalog-sample"><img class="a-sample" src="images_samples/block-1.jpg"><div class="text-sample" ><div class="text-sample-text">Инструменты</div><div class="button-sample button-catalog button--aylen"id="tools">Подробнее</div></div> </div>
         </div>
 
 
@@ -95,15 +98,28 @@
         Реализовать тысячи оригинальных идей и изысканных интерьеров позволит широкая гамма цветов, оттенков и эффектов декоративных покрытий Oikos и Ferrara. Краски из декоративной линии – отличная альтернатива обоям. Различные пропорции, способы и техники нанесения краски дают возможность получить абсолютно индивидуальный рисунок, самые неожиданные результаты работы в любом помещении. Краски и штукатурки из декоративной линии помогают создать стильный интерьер и добиться действительно уникального дизайна для стен. Используя декоративные штукатурки и краски в отделке стен можно получить поверхность различной фактуры: гладкую как шелк или роскошную как бархат, с великолепным мерцающим и перламутровым эффектом, имитацию «под старину», мелкий песок или благородный мрамор.
     </div>
 </section>
+<section class="catalog-lists">
+    <div class="katalog-2" >
+    <h1>Каталог продукции</h1>
+    <div class="wrapper">
+        <div class="catalog-sample"><img class="a-sample" src="images_samples/block-1.jpg"> <div class="text-sample" ><div class="text-sample-text">Декоративная линия</div><div class="button-sample button-catalog button--aylen">Подробнее</div></div></div>
+        <div class="catalog-sample"><img class="a-sample" src="images_samples/block-1.jpg"><div class="text-sample" ><div class="text-sample-text">Фоновые краски</div><div class="button-sample button-catalog button--aylen">Подробнее</div></div> </div>
+        <div class="catalog-sample"><img class="a-sample" src="images_samples/block-1.jpg"><div class="text-sample" ><div class="text-sample-text">Грунты, лаки, пропитки</div><div class="button-sample button-catalog button--aylen">Подробнее</div></div> </div>
+        <div class="catalog-sample"><img class="a-sample" src="images_samples/block-1.jpg"><div class="text-sample" ><div class="text-sample-text">Лепной декор</div><div class="button-sample button-catalog button--aylen">Подробнее</div></div> </div>
+        <div class="catalog-sample"><img class="a-sample" src="images_samples/block-1.jpg"><div class="text-sample" ><div class="text-sample-text">Фасадная линия</div><div class="button-sample button-catalog button--aylen">Подробнее</div></div> </div>
+        <div class="catalog-sample"><img class="a-sample" src="images_samples/block-1.jpg"><div class="text-sample" ><div class="text-sample-text">Инмтрументы</div><div class="button-sample button-catalog button--aylen">Подробнее</div></div> </div>
+    </div>
+    </div>
+</section>
 <section class="partners" style="background: #b4b4b4">
-    <marquee direction="left" scrollamount="20" style="padding-top:2.5vh">
-        <img src="images_main_page/oikos.jpg" style="height:15vh"/>
-        <img src="images_main_page/nova-color.png" style="height:15vh"/>
-        <img src="images_main_page/GIORGIOGRAESAN.png" style="height:15vh"/>
-        <img src="images_main_page/logo_ferara.png.pagespeed.ce.png" style="height:15vh"/>
-        <img src="images_main_page/Candis.png" style="height:15vh"/>
-        <img src="images_main_page/Layer-1.png" style="height:15vh"/>
-    </marquee>
+    <div  class="wrap-partners" style="padding-top:4vh">
+        <img src="images_main_page/oikos.jpg"  class="image-parners"/>
+        <img src="images_main_page/nova-color.png"  class="image-parners"/>
+        <img src="images_main_page/GIORGIOGRAESAN.png"  class="image-parners"/>
+        <img src="images_main_page/logo_ferara.png.pagespeed.ce.png" class="image-parners"/>
+        <img src="images_main_page/Candis.png"  class="image-parners"/>
+        <img src="images_main_page/Layer-1.png" class="image-parners"/>
+    </div>
 
 </section>
 
@@ -112,7 +128,7 @@
     <div class="container">
         <div class="col-md-3 col-sm-0 social">
             <i class="fa fa-facebook-square icons-footer" aria-hidden="true"></i>
-            <i class="fa fa-vk icons-footer" aria-hidden="true"></i>
+            <i class="fa fa-instagram icons-footer" aria-hidden="true"></i>
         </div>
         <div class="col-md-3 col-sm-0 e-mails">
             <i class="fa fa-envelope icons-footer icons-footer" aria-hidden="true"></i>

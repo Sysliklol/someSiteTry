@@ -58,20 +58,7 @@
     z-index:100;
 
 }
-.gallery-1 .one-sample .text-sample .button-sample {
-    position:absolute;
 
-    background-color: rgba(255,255,255,0.6);
-    width: 70%;
-    margin: auto;
-    bottom:10%;
-    left:15%;
-    font-size: 20px;
-    cursor: pointer;
-    overflow-y:hidden;
-    overflow-x:hidden;
-    border-radius:5px;
-}
 .gallery-2{
     z-index: 15;
     transition: all 1s ease-out;
@@ -469,11 +456,7 @@ input#img--6:checked ~ .nav-dots label#img-dot--6 {
     overflow:hidden;
     border-radius:10px;
 }
-.gallery-1   .button-sample:hover {
 
-    background: rgba(255,255,255,0);
-
-}
 
 .gallery-1  .wrapper{
     height:100%;
@@ -522,7 +505,6 @@ input#img--6:checked ~ .nav-dots label#img-dot--6 {
     border-radius:10px;
 }
 .gallery-1  .button-sample:hover {
-
     background: rgba(255, 255, 255, 0);
 }
 

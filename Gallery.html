@@ -17,7 +17,9 @@
     <link rel="stylesheet/less" type="text/css" href="assets/bootstrap-theme.css" />
     <link rel="stylesheet/less" type="text/css" href="assets/bootstrap-theme.min.css" />
     <!-- LESS JavaScript компілятор -->
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- jQuery JavaScript -->
     <script type="text/javascript" src="assets/jquery-3.1.1.min.js"> </script>
@@ -25,7 +27,7 @@
     <script type="text/javascript" src="assets/js/smooth.js"> </script>
     <script type="text/javascript" src="assets/bootstrap.min.js"> </script>
     <script type="text/javascript" src="assets/isotope.pkdg.min.js"> </script>
-
+    <script type="text/javascript" src="Lists/Gallery-list.js"> </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 </head>
@@ -81,19 +83,19 @@
     </section>
 <section class="gallery-1">
   <div class="container">
-      <div class="col-md-4 col-sm-4 col-xs-4  one-sample" id="smaple-1"><img class="a-sample" src="images_samples/block-1.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample button--aylen">Подробнее</div></div></div>
-      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-9"><img class="a-sample" src="images_samples/block-2.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample button--aylen">Подробнее</div></div></div>
-      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-8"><img class="a-sample" src="images_samples/block-3.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample button--aylen">Подробнее</div></div></div>
-      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-7"><img class="a-sample" src="images_samples/block-4.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample button--aylen">Подробнее</div></div></div>
-      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-6"><img class="a-sample" src="images_samples/block-5.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample button--aylen">Подробнее</div></div></div>
-      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-5"><img class="a-sample" src="images_samples/block-6.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample button--aylen">Подробнее</div></div></div>
-      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-4"><img class="a-sample" src="images_samples/block-7.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample button--aylen">Подробнее</div></div></div>
-      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-3"><img class="a-sample" src="images_samples/block-8.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample button--aylen">Подробнее</div></div></div>
-      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-2"><img class="a-sample" src="images_samples/block-9.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Эффекты шелка, бархата</div><div class="button-sample button--aylen">Подробнее</div></div></div>
+      <div class="col-md-4 col-sm-4 col-xs-4  one-sample" id="smaple-1"><img class="a-sample" src="object1/12.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Ресторан "Вельвет"</div><div class="button-sample button-object button--aylen" id="obj1">Подробнее</div></div></div>
+      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-9"><img class="a-sample" src="object2/7.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Кафе-бар отель <br>"Братислава"</div><div class="button-sample button-object button--aylen" id="obj2">Подробнее</div></div></div>
+      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-8"><img class="a-sample" src="object3/4.JPG"> <div class="text-sample" style="display: none"><div class="text-sample-text">Ресторан "PLОV"</div><div class="button-sample button-object button--aylen" id="obj3">Подробнее</div></div></div>
+      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-7"><img class="a-sample" src="object4/5.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Квартира</div><div class="button-sample button-object button--aylen" id="obj4">Подробнее</div></div></div>
+      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-6"><img class="a-sample" src="object5/2.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Барбершоп "BORODACH"</div><div class="button-sample button-object button--aylen" id="obj5">Подробнее</div></div></div>
+      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-5"><img class="a-sample" src="images_samples/block-6.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Объект 6</div><div class="button-sample button-object button--aylen" id="obj6">Подробнее</div></div></div>
+      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-4"><img class="a-sample" src="images_samples/block-7.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Объект 7</div><div class="button-sample button-object button--aylen" id="obj7">Подробнее</div></div></div>
+      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-3"><img class="a-sample" src="images_samples/block-8.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Объект 8</div><div class="button-sample button-object button--aylen" id="obj8">Подробнее</div></div></div>
+      <div class="col-md-4 col-sm-4 col-xs-4 one-sample" id="smaple-2"><img class="a-sample" src="images_samples/block-9.jpg"> <div class="text-sample" style="display: none"><div class="text-sample-text">Объект 9</div><div class="button-sample button-object button--aylen" id="obj9">Подробнее</div></div></div>
 
   </div>
 </section>
-<section class="gallery-2">
+<section class="gallery-2" style="display: none">
 
 </section>
 <section class="gallery-3">
@@ -103,7 +105,7 @@
                 <input type="radio" name="radio-btn1" class="gallery-3-1"id="img---1" checked />
                 <li class="slide-container-1">
                     <div class="slide-1">
-                        <img src="images_main_page/9344-copy.jpg" />
+                        <img src="steni/3.jpg" />
                     </div>
                     <div class="nav-1">
                         <label for="img---6" class="prev">&#x2039;</label>
@@ -114,7 +116,7 @@
                 <input type="radio" name="radio-btn1" class="gallery-3-1" id="img---2" />
                 <li class="slide-container-1">
                     <div class="slide-1">
-                        <img src="images_main_page/DSC_2178.jpg"/>
+                        <img src="steni/2.jpg"/>
                     </div>
                     <div class="nav-1">
                         <label for="img---1" class="prev">&#x2039;</label>
@@ -125,7 +127,7 @@
                 <input type="radio" name="radio-btn1" class="gallery-3-1" id="img---3" />
                 <li class="slide-container-1">
                     <div class="slide-1">
-                        <img src="images_main_page/9344-copy.jpg" />
+                        <img src="steni/1.jpg" />
                     </div>
                     <div class="nav-1">
                         <label for="img---2" class="prev">&#x2039;</label>
@@ -136,7 +138,7 @@
                 <input type="radio" name="radio-btn1"  class="gallery-3-1" id="img---4" />
                 <li class="slide-container-1">
                     <div class="slide-1">
-                        <img src="images_main_page/DSC_2191.jpg" />
+                        <img src="steni/4.jpg" />
                     </div>
                     <div class="nav-1">
                         <label for="img---3" class="prev">&#x2039;</label>
@@ -147,7 +149,7 @@
                 <input type="radio" name="radio-btn1" class="gallery-3-1" id="img---5" />
                 <li class="slide-container-1">
                     <div class="slide-1">
-                        <img src="images_main_page/DSC_2199.jpg" />
+                        <img src="steni/5.jpg" />
                     </div>
                     <div class="nav-1">
                         <label for="img---4" class="prev">&#x2039;</label>
@@ -158,7 +160,7 @@
                 <input type="radio" name="radio-btn1" class="gallery-3-1"  id="img---6" />
                 <li class="slide-container-1">
                     <div class="slide-1">
-                        <img src="images_main_page/DSC_2149.jpg" />
+                        <img src="steni/6.jpg" />
                     </div>
                     <div class="nav-1">
                         <label for="img---5" class="prev">&#x2039;</label>
@@ -187,7 +189,7 @@
                 <input type="radio" name="radio-btn2" id="img--1" checked />
                 <li class="slide-container">
                     <div class="slide">
-                        <img src="images_main_page/fon-2.jpg" />
+                        <img src="Lepnina/3.jpg" />
                     </div>
                     <div class="nav">
                         <label for="img--6" class="prev">&#x2039;</label>
@@ -198,7 +200,7 @@
                 <input type="radio" name="radio-btn2" id="img--2" />
                 <li class="slide-container">
                     <div class="slide">
-                        <img src="images_main_page/DSC_2178.jpg"/>
+                        <img src="Lepnina/2.jpg"/>
                     </div>
                     <div class="nav">
                         <label for="img--1" class="prev">&#x2039;</label>
@@ -209,7 +211,7 @@
                 <input type="radio" name="radio-btn2" id="img--3" />
                 <li class="slide-container">
                     <div class="slide">
-                        <img src="images_main_page/DSC_2159.jpg" />
+                        <img src="Lepnina/1.jpg" />
                     </div>
                     <div class="nav">
                         <label for="img--2" class="prev">&#x2039;</label>
@@ -220,7 +222,7 @@
                 <input type="radio" name="radio-btn2" id="img--4" />
                 <li class="slide-container">
                     <div class="slide">
-                        <img src="images_main_page/DSC_2191.jpg" />
+                        <img src="Lepnina/4.jpg" />
                     </div>
                     <div class="nav">
                         <label for="img--3" class="prev">&#x2039;</label>
@@ -231,7 +233,7 @@
                 <input type="radio" name="radio-btn2" id="img--5" />
                 <li class="slide-container">
                     <div class="slide">
-                        <img src="images_main_page/DSC_2199.jpg" />
+                        <img src="Lepnina/5.jpg" />
                     </div>
                     <div class="nav">
                         <label for="img--4" class="prev">&#x2039;</label>
@@ -242,7 +244,7 @@
                 <input type="radio" name="radio-btn2" id="img--6" />
                 <li class="slide-container">
                     <div class="slide">
-                        <img src="images_main_page/DSC_2149.jpg" />
+                        <img src="Lepnina/6.jpg" />
                     </div>
                     <div class="nav">
                         <label for="img--5" class="prev">&#x2039;</label>
@@ -269,7 +271,7 @@
                 <input type="radio" name="radio-btn" id="img-1" checked />
                 <li class="slide-container">
                     <div class="slide">
-                        <img src="images_main_page/fon-2.jpg" />
+                        <img src="zolocheniye/m5.jpg" />
                     </div>
                     <div class="nav">
                         <label for="img-6" class="prev">&#x2039;</label>
@@ -280,7 +282,7 @@
                 <input type="radio" name="radio-btn" id="img-2" />
                 <li class="slide-container">
                     <div class="slide">
-                        <img src="images_main_page/DSC_2178.jpg"/>
+                        <img src="zolocheniye/2.jpg"/>
                     </div>
                     <div class="nav">
                         <label for="img-1" class="prev">&#x2039;</label>
@@ -291,7 +293,7 @@
                 <input type="radio" name="radio-btn" id="img-3" />
                 <li class="slide-container">
                     <div class="slide">
-                        <img src="images_main_page/DSC_2159.jpg" />
+                        <img src="zolocheniye/3.jpg" />
                     </div>
                     <div class="nav">
                         <label for="img-2" class="prev">&#x2039;</label>
@@ -302,7 +304,7 @@
                 <input type="radio" name="radio-btn" id="img-4" />
                 <li class="slide-container">
                     <div class="slide">
-                        <img src="images_main_page/DSC_2191.jpg" />
+                        <img src="zolocheniye/1.jpg" />
                     </div>
                     <div class="nav">
                         <label for="img-3" class="prev">&#x2039;</label>
@@ -313,7 +315,7 @@
                 <input type="radio" name="radio-btn" id="img-5" />
                 <li class="slide-container">
                     <div class="slide">
-                        <img src="images_main_page/DSC_2199.jpg" />
+                        <img src="zolocheniye/m4.jpg" />
                     </div>
                     <div class="nav">
                         <label for="img-4" class="prev">&#x2039;</label>
@@ -324,7 +326,7 @@
                 <input type="radio" name="radio-btn" id="img-6" />
                 <li class="slide-container">
                     <div class="slide">
-                        <img src="images_main_page/DSC_2149.jpg" />
+                        <img src="zolocheniye/6.jpg" />
                     </div>
                     <div class="nav">
                         <label for="img-5" class="prev">&#x2039;</label>
@@ -379,5 +381,52 @@
         </div>
     </div>
 </section>
+<div class="popup-gallery" style="display: none">
+    <div class ="close">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <div class="gallery-container-popup">
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <!--<ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>-->
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div>
+
+                </div>
+
+                <!--<div class="item">
+                    <img src="object1/12.jpg" >
+                </div>
+
+                <div class="item">
+                    <img src="object1/12.jpg"  >
+                </div>
+
+                <div class="item">
+                    <img src="object1/12.jpg"  >
+                </div>-->
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+</div>
 </body>
 </html>

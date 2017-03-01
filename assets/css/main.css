@@ -690,11 +690,11 @@ html{
     max-height: 900px;
     text-align: left;
     height: 85vh;
-    background-size: 100% 300%;
-    background-attachment: fixed;
+    background-size: 100% 100%;
+    /*background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 @media screen and(max-width:1024px){
     .screen-3{
@@ -813,10 +813,9 @@ html{
     -moz-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
     position: relative;
-    background-image: url('../../images_main_page/DSC_2199.jpg');
-    height: 70vh;
-    z-index: 15;
-    background-size: 100% 100%;
+    background-image: url('../../images_main_page/123.png');
+    height: 600px;
+    display:none;
 }
 
 .effects-samples {
@@ -827,7 +826,7 @@ html{
     box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
     position: relative;
     background-image: url('../../images_main_page/DSC_2024.jpg');
-    overflow-x:hidden;
+    overflow:hidden;
     height: 150vh;
     width:200%;
     background-size: 100% 100%;
@@ -874,6 +873,7 @@ html{
     transition: all 1s linear;
     vertical-align: baseline;
 }
+
 .effects-samples .one-sample {
     padding: 0;
     height:36vh;
@@ -912,6 +912,7 @@ html{
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
 }
+
 .effects-samples .text-sample:hover {
     opacity: 0.8;
     background: rgba(0,0,0,0.65);
@@ -920,13 +921,17 @@ html{
 .effects-samples .one-sample .text-sample .text-sample-text {
     position:absolute;
     font-size: 20px;
-    width: 70%;
     text-align: center;
     margin: auto;
     padding-top: 1%;
-    width:50%;
-    left:25%;
+    width:80%;
+    left:10%;
 
+}
+@media screen and(max-height: 800px){
+    .effects-samples .one-sample .text-sample .text-sample-text {
+        font-size: 16px !important;
+    }
 }
 .effects-samples .one-sample .text-sample .button-sample {
     position:absolute;
@@ -936,10 +941,14 @@ html{
     margin: auto;
     bottom:10%;
     left:15%;
+    height:30%;
     font-size: 20px;
     cursor: pointer;
     overflow:hidden;
-    border-radius:10px;
+    /*border-radius:10px;*/
+    padding-top:7%;
+    border-top:2px solid white;
+    border-bottom: 2px solid white;
 }
 
 .katalog  .button-sample:hover {
@@ -1011,7 +1020,11 @@ html{
     font-size: 20px;
     cursor: pointer;
     overflow:hidden;
-    border-radius:10px;
+    /*border-radius:10px;*/
+    height:30%;
+    padding-top:7%;
+    border-top:2px solid white;
+    border-bottom: 2px solid white;
 }
 .katalog  .button-sample:hover {
 
@@ -1166,7 +1179,7 @@ html{
     left: 50%;
     text-align: left;
     padding: 30px;
-    top: 35%;
+    top: 15%;
     border-radius: 10px;
     width: 40%;
     background: rgba(165, 165, 165, 0.5);
@@ -1340,7 +1353,11 @@ input#img---6:checked ~ .nav-dots label#img--dot-6 {
     font-size: 20px;
     cursor: pointer;
     overflow:hidden;
-    border-radius:10px;
+   /* border-radius:10px;*/
+    height:30%;
+    padding-top:7%;
+    border-top:2px solid white;
+    border-bottom: 2px solid white;
 }
 .catalog-lists   .button-sample:hover {
 
@@ -1392,7 +1409,7 @@ input#img---6:checked ~ .nav-dots label#img--dot-6 {
     font-size: 20px;
     cursor: pointer;
     overflow:hidden;
-    border-radius:10px;
+   /* border-radius:10px;*/
 }
 .catalog-lists   .button-sample:hover {
 
@@ -1434,4 +1451,33 @@ input#img---6:checked ~ .nav-dots label#img--dot-6 {
 
     background: rgba(255,255,255,0) !important;
 
+}
+.carousel-inner{
+    height:100%;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+.effects-main .slide{
+    transform: scale(1) !important;
+    opacity:1 !important;
+
+}
+
+.carousel-inner .item img{
+    height:100% !important;
+    width:auto !important;
+}
+
+.carousel-inner .item {
+    height:100%;
+}
+.gallery-container-popup{
+    position:absolute;
+    width:100%;
+    left:0%;
+    top:0%;
+    height:100%;
 }

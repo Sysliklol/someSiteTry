@@ -15,9 +15,9 @@ function hideBlock() {
             block.css('background', 'url(' + image_url + ')');
             block.css('height', $(window).height() * 0.15);
             block.css('opacity', '0.96');
-            $('.header-catalog').css('top', '50%')
+            //$('.header-catalog').css('top', '50%')
             $('.main-screen').css('padding-top', '16%')
-            $('.our-poslugi').css('margin-top', '5%');
+           // $('.our-poslugi').css('margin-top', '5%');
 
         }
         else {
@@ -47,13 +47,17 @@ $(function(){
 
 
     $('.button-sample').click(function(){
+        $('.effects-main').show();
         $('.effects-samples').toggleClass('moveLeft');
         $('.podmenu-header').text('ОбРАЗЦЫ > ' + $(this).siblings('.text-sample-text').text())
         $('.partners-109-hrn').show();
+
     })
     $('.podmenu-header').click(function(){
         $('.effects-samples').toggleClass('moveLeft');
         $('.partners-109-hrn').hide();
+        $('.effects-samples').css('height',150+'vh');
+        $('.effects-main').hide();
     })
 
     $('#gallery').click(function(){
@@ -93,7 +97,26 @@ $(function(){
 
 
     })
+    $('.button-object').click(function(){
+        console.log(2);
+        $('.popup-gallery').show();
+        $('html, body').css({
+            overflow: 'hidden',
+            height: '100%'
+        });
+    })
+    $('.close').click(function(){
+        $('.popup-gallery').hide();
+        $('html, body').css({
+            overflow: 'auto',
+            height: 'auto'
+        });
+        var upper = $(window).height()*0.15;
+        $("html, body").delay(0).animate({
+            scrollTop: $(window).height()-upper
 
+        }, 1000);
+    })
  function hide_all(){
      $('body').scrollTop(0);
      animate();
@@ -132,6 +155,9 @@ $(function(){
     $('.one-sample').mouseleave(function(){
         $(this).find('.text-sample').hide();
     })
+
+
+
 });
 
 

@@ -1,5 +1,5 @@
 .gallery-1{
-    z-index: 20;
+    z-index: 19;
     transition: all 1s ease-out;
     -webkit-transition: all 1s ease-in-out;
     -webkit-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
@@ -7,21 +7,84 @@
     box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
     position: relative;
     font-family: Andalus;
-    background-image: url('../../images_main_page/DSC_1732.JPG');
-    background-size: 100% 160%;
+    background-image: url('../../images_main_page/grey_wash_wall.png');
+   /*background-size: 100% 160%;*/
     width: 100%;
-    max-height: 1280px;
+    /*max-height: 1280px;*/
     height: 100vh;
-    background-attachment: fixed;
+    /*background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+
+}
+.carousel-inner{
+    height:100%;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+.popup-gallery .slide{
+ transform: scale(1) !important;
+    opacity:1 !important;
+
+}
+
+.carousel-inner .item img{
+    height:100% !important;
+    width:auto !important;
+}
+
+.carousel-inner .item {
+    height:100%;
+}
+.popup-gallery .close{
+    width:5%;
+    height:5%;
+    position:fixed;
+    top:5%;
+    right:5%;
+    font-size:50px;
+    color:white;
+    opacity:1;
+}
+.popup-gallery .close:hover{
+    width:5%;
+    height:5%;
+    position:fixed;
+    top:5%;
+    right:5%;
+    font-size:50px;
+    color:white;
+    opacity:1;
+}
+.gallery-container-popup{
+    position:fixed;
+    width:80%;
+    left:10%;
+    top:15%;
+    height:70%;
+}
+
+body{
+    position:relative;
+}
+.popup-gallery{
+    top:0;
+    width:100%;
+    height:100%;
+    position:fixed;
+    background:rgba(0,0,0,0.9);
+
+    z-index:1400;
 
 }
 .gallery-1 .a-sample{
     width: 100%;
     height: 100%;
-    z-index:100;
+    z-index:10;
 }
 
 .gallery-1 .one-sample .text-sample {
@@ -35,7 +98,7 @@
     text-align: center;
 
     opacity: 0;
-    z-index:100;
+    z-index:10;
 
 }
 .gallery-1 .one-sample .text-sample:hover {
@@ -47,7 +110,7 @@
     padding: 0;
     position: relative;
     height:33.33333vh;
-    z-index:100;
+    z-index:10;
 }
 .gallery-1 .one-sample .text-sample .text-sample-text {
     font-size: 25px;
@@ -55,7 +118,7 @@
     text-align: center;
     margin: auto;
     padding-top: 10%;
-    z-index:100;
+    z-index:10;
 
 }
 
@@ -77,21 +140,21 @@
 .gallery-3{
     z-index: 10;
     transition: all 1s ease-out;
-    -webkit-transition: all 1s ease-in-out;
+    /*-webkit-transition: all 1s ease-in-out;
     -webkit-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);*/
     position: relative;
     font-family: Andalus;
-    background-image: url('../../images_main_page/DSC_2024.jpg');
-    background-size: 100% 160%;
+    background-image: url('../../images_main_page/back.png');
+    /*background-size: 100% 100%;*/
     width: 100%;
     max-height: 1280px;
     height: 100vh;
-    background-attachment: fixed;
+   /* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     overflow:visible;
 }
 .gallery-4{
@@ -103,15 +166,15 @@
     box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
     position: relative;
     font-family: Andalus;
-    background-image: url('../../images_main_page/DSC_1807.JPG');
-    background-size: 100% 160%;
+    background-image: url('../../images_main_page/back.png');
+    /*background-size: 100% 100%;*/
     width: 100%;
     max-height: 1280px;
     height: 100vh;
-    background-attachment: fixed;
+    /*background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 .gallery-slider{
     height:66.666vh;
@@ -120,6 +183,7 @@
     text-align: left;
     color:white;
     font-size:26px;
+
 }
 
 .gallery-4 .gallery-slider{
@@ -197,7 +261,7 @@
     height: 100%;
     display: block;
     position: absolute;
-
+    border:5px white solid;
     transform: scale(0);
 
     transition: all .7s ease-in-out;
@@ -246,7 +310,7 @@
 
 .gallery-4 .nav-dots {
     width: 100%;
-    bottom: 9px;
+    bottom: 40px;
     height: 11px;
     display: block;
     position: absolute;
@@ -342,7 +406,7 @@ input#img---6:checked ~ .nav-dots label#img--dot-6 {
     height: 100%;
     display: block;
     position: absolute;
-
+    border:5px white solid;
     transform: scale(0);
 
     transition: all .7s ease-in-out;
@@ -391,7 +455,7 @@ input#img---6:checked ~ .nav-dots label#img--dot-6 {
 
 .gallery-3 .nav-dots {
     width: 100%;
-    bottom: 9px;
+    bottom: 40px;
     height: 11px;
     display: block;
     position: absolute;
@@ -414,6 +478,9 @@ input#img---6:checked ~ .nav-dots label#img--dot-6 {
     background-color: rgba(0, 0, 0, 0.8) ;
 }
 
+.gallery-3 .slide{
+    border:5px white solid;
+}
 input#img-1:checked ~ .nav-dots label#img-dot-1,
 input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3,
@@ -443,19 +510,6 @@ input#img--6:checked ~ .nav-dots label#img-dot--6 {
     height:100% ;
 }
 
-.gallery-1  .button-sample {
-    position:absolute;
-    color: White;
-    background: rgba(255,255,255,0.2);
-    width: 70%;
-    margin: auto;
-    bottom:10%;
-    left:15%;
-    font-size: 20px;
-    cursor: pointer;
-    overflow:hidden;
-    border-radius:10px;
-}
 
 
 .gallery-1  .wrapper{
@@ -502,7 +556,11 @@ input#img--6:checked ~ .nav-dots label#img-dot--6 {
     font-size: 20px;
     cursor: pointer;
     overflow:hidden;
-    border-radius:10px;
+    /*border-radius:10px;*/
+    height:30%;
+    padding-top:7%;
+    border-top:2px solid white;
+    border-bottom: 2px solid white;
 }
 .gallery-1  .button-sample:hover {
     background: rgba(255, 255, 255, 0);

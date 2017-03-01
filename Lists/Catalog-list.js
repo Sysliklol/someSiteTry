@@ -56,174 +56,175 @@ var item_info = [
         icon:'images_main_page/9.jpg',
         text:"ANTICO FERERO",
         type:"deco_line",
-        description:"Some-random"
+        description:"Antico Ferro - это декоративное решение с низким влиянием на окружающую среду, которое передает эстетические эффекты под железо. При помощи техник нанесения воссоздаются цветовые эффекты и отделки, придающие стенам особую ценность. Текстуры Antico Ferro могут быть нанесены, как в спокойных интерьерах, так и в тех, где присутствуют сильные контрасты между специально состаренными материалами и элементами современнейшего дизайна. Цвета и отделки Antico Ferro могут быть интерпретированы креативно, в зависимости от потребностей проектировщиков. С помощью техник нанесения достигается любой декоративный эффект без малейшей потери противодействия мытью и стиранию, а также паропроницаемости.Antico Ferro от Oikos не горит, безопасен для человека и окружающей среды. Для уточнения технических характеристик необходимо обратиться к техническим описаниям материалов, которые используются при нанесении эффекта Antico Ferro."
     },
     {
         id:2,
         icon:'images_main_page/9344-copy.jpg',
-        text:"ALOALO",
+        text:"ARDESIA",
         type:"deco_line",
-        description:"Lorem-ipsum"
+        description:"Ardesia - это декоративное покрытие с низким воздействием на окружающую среду. Этот крепкий материал с каменистой структурой в настоящее время представляет большой интерес для интерьер-дизайнеров за счёт его способности наполнять внутреннее пространство качеством и одновременно актуальной элегантностью сегоднешних тенденций.Ardesia имеет фактуру, создающую необходимую защиту, которая в свою очередь повышает стойкость к истиранию, и улучшает моющие свойства материала. Базовый слой материала, обработанный специальным тампоном, создает типичную структуру камня «ардезия», в то время как нанесенная кистью отделка придает поверхности цвет из представленной гаммы оттенков материала, отличающихся особой эстетикой.Материал негорючий, безопасен для человека и окружающей среды.Для уточнения технических характеристик необходимо обратиться к тех.описаниям материалов, которые используются при нанесении эффекта Ardesia."
     },
     {
         id:3,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"AUREUM",
         type:"deco_line",
-        description:"Lorem-ipsum"
+        description:"Aureum производства OIKOS - утончённая алхимия, золото на стенах, декоративная отделка с золотистым эффектом, на основе крупного известняка и окрашенных порошков, имеет низкое воздействие на среду. Оттенки Aureum рождаются из недр цветов Земли и теплых красок природы; сочетание в синтезе между историческими находками и знанием современных технологий позволило воплотить в жизнь такой продукт, который идеально подходит как для современной, так и традиционной обстановки.Aureum позволяет воспроизвести дорогие и элегантные отделки в различных тональностях, создавая при переменах игры света и точек зрения, чарующие блики на украшенных текстурах; кроме того, насыщенность отблесков золота наполняет стену, придавая несомненную элегантность обстановке с осязательным ощущением шёлка."
     },
     {
         id:4,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
-        type:"deco_line"
+        text:"BIAMAX",
+        type:"deco_line",
+        description:"Biamax by Oikos – декоративная краска для интерьера с наполнителями отборной гранулометрии, на основе акриловых смол в водной дисперсии, паропроницаемая, очень устойчивая к истиранию и с низким воздействием на окружаюшую среду. Материал имеется в версии 03 (гранулометрия макс. 0,3 мм) и 07 (гранулометрия макс. 0,7 мм). Учитывая значительную покрываемость материала, BIAMAX можно использовать непосредственно в качестве цветной отделки для создания на стене нерегулярной фактурности декора «под старину», а также его можно использовать как подготовительный материал для создания исключительных декоративных отделок. Благодаря своей увеличенной гранулометрии, Biamax 07 можно использовать также в качестве отделочной штукатурки белого цвета или же окрашенной.Biamax владеет отличной покрываемостью и заполняющей способностью, негорючий, безопасен для человека и окружающей среды."
 
     },
     {
         id:5,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"COCCIO ANTICO",
         type:"deco_line"
 
     },
     {
         id:6,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"COCCIO CEMENTOT",
         type:"deco_line"
 
     },
     {
         id:7,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"DUCA DI VENEZI",
         type:"deco_line"
     },
     {
         id:8,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"ENCANTO",
         type:"deco_line"
     },
     {
         id:9,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"GRANADA",
         type:"deco_line"
     },
     {
         id:10,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"IMPERIUM",
         type:"deco_line"
     },
     {
         id:11,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"KREOS DRAPÉ",
         type:"deco_line"
     },
     {
         id:12,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"KREOS FIL POSÉ",
         type:"deco_line"
     },{
         id:13,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"MARMORA ROMANA",
         type:"deco_line"
     },
     {
         id:14,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"MARMORINO NATURALE",
         type:"deco_line"
     },
     {
         id:15,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"MULTIDECOR",
         type:"deco_line"
     },
     {
         id:16,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"NEVADA",
         type:"deco_line"
     },
     {
         id:17,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"OTTOCENTO ANTICO VELLUTO",
         type:"deco_line"
     },
     {
         id:18,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"PALLAS",
         type:"deco_line"
     },
     {
         id:19,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"RAFFAELLO DECOR STUCCO",
         type:"deco_line"
     },
     {
         id:20,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"RAFFAELLO MADREPERLATO",
         type:"deco_line"
     },
     {
         id:21,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"TRAVERTINO ROMANO",
         type:"deco_line"
     },{
         id:22,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"TRAVERTINO ROMANO FINITURA",
         type:"deco_line"
     },{
         id:23,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"Ferrara",
         type:"deco_line"
     },
     {
         id:24,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"Vetro",
         type:"deco_line"
     },{
         id:25,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"Struttura",
         type:"deco_line"
     },
     {
         id:26,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"Strato",
         type:"deco_line"
     },
     {
         id:27,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"Pietra",
         type:"deco_line"
     },
     {
         id:28,
         icon:'images_main_page/9.jpg',
-        text:"ANTICO FERERO",
+        text:"Pietra Lucida",
         type:"deco_line"
     },{
         id:29,
         icon:'images_main_page/9.jpg',
-        text:"NON ANTICO FERERO",
+        text:"Terracotta",
         type:"deco_line"
     }
     ,{
@@ -425,6 +426,7 @@ function showPizzaList(list_name) {
 
         var descr= $('.catalog-podmenu-description');
         descr.html('')
+        var podmenu= $('.catalog-podmenu');
 
         var needed = this.id;
 
@@ -433,7 +435,7 @@ function showPizzaList(list_name) {
 
             if(item.id==needed) {
                 descr.html(item.description);
-
+                podmenu.css('background-image','url('+item.icon+')');
             }
         });
     })
